@@ -73,3 +73,7 @@ function snowFall() {
     snow.lifetime = 120;
   }
 }
+
+function mousePressed() {
+  snowMusic.play(); 
+}
