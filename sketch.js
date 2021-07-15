@@ -32,7 +32,7 @@ function setup() {
 
 function draw() {
   background(bgImg);
-
+  snowMusic.play();
   if(happyPair.y < 340) {
     happyPair.velocityY = 0.4;
   } else if (happyPair.y > 349) {
